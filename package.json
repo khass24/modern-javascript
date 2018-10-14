@@ -1,10 +1,11 @@
 {
   "name": "modern-javascript",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "webpack --progress --watch",
+    "server": "webpack-dev-server --open"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,19 @@
   "bugs": {
     "url": "https://github.com/kyle-hassett/modern-javascript/issues"
   },
-  "homepage": "https://github.com/kyle-hassett/modern-javascript#readme"
+  "homepage": "https://github.com/kyle-hassett/modern-javascript#readme",
+  "dependencies": {
+    "date.js": "^0.3.3",
+    "howler": "^2.0.15",
+    "mathjs": "^5.2.0",
+    "moment": "^2.22.2",
+    "tone": "^0.12.80",
+    "video.js": "^7.2.3"
+  },
+  "devDependencies": {
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.9"
+  },
+  "description": ""
 }
